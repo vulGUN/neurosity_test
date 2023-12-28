@@ -1,0 +1,46 @@
+.task-4__cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.task-4__item {
+  padding: 20px;
+  background-color: #e4eaf1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 370px;
+}
+
+.task-4__item-text div:first-child {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.task-4__item img {
+  border-radius: 100%;
+  width: 128px;
+  height: 128px;
+}
+
+.task-4__buttons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.task-4__prev-btn,
+.task-4__next-btn {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}

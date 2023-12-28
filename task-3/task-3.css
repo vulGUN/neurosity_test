@@ -1,0 +1,13 @@
+.task-3__video {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s filter;
+}
+
+.task-3__play-btn {
+  position: absolute;
+}
+

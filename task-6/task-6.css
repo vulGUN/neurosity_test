@@ -1,0 +1,29 @@
+.task-6__form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-6__form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-6__form label {
+  font-size: 12px;
+  margin-top: 5px;
+  color: red;
+}
+
+.task-6__input {
+  padding: 10px;
+  border: 1px solid #a3a3a3;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  outline: none;
+}
+
+.input-error {
+  border: 2px solid red;
+}
